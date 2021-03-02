@@ -1,0 +1,12 @@
+1. Create a hidden file: 
+touch .hali.txt (in windows you should change attribute { attrib +h .hali.txt})
+
+
+Display hidden files: ls -a
+
+
+
+2. Create multiple directories
+: For \'H1/H2/H3\' mkdir H1 H1/H2 H1/H2/H3 (Which is hard
+) or mkdir -p H1/H2/h3
+3. append message: echo "Message1" >> filename.txt and echo "message2" >> filename.txt
